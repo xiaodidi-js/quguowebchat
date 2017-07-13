@@ -1,0 +1,133 @@
+/**index.wxss**/
+
+/* programme start */
+
+.programme {
+  width: 100%;
+  height: 456px;
+  background: url('../../images/img19.png') no-repeat #68cfad;
+  background-size: 100%;
+  background-position-y: 5rem;
+}
+
+.programme .prog-bgimg1 {
+  width: 240px;
+  height: 100%;
+  background: url('../../images/img17.png') no-repeat top center;
+  background-size: 75%;
+  margin: 1rem auto;
+}
+
+.programme .prog-all {
+  padding: 42px 0px 0px 10px;
+  line-height: 2rem;
+}
+
+.programme .programme_text {
+  font-size: 1.7rem;
+}
+
+/* programme end */
+
+/* myTitle start */
+
+.myTitle {
+  text-align: center;
+  margin: 3rem 0rem 0rem;
+  font-size: 1.5rem;
+  font-family: 'microsoft yahei';
+}
+
+.myTitle .list {
+  width: 3rem;
+  height: 0.05rem;
+  background: #b3b2b3;
+  margin: 0.5rem auto;
+}
+
+/* myTitle end */
+
+/* classification start */
+
+.classification {
+  margin: 1rem;
+}
+
+.classification .class-list {
+  width: 50%;
+  float: left;
+  margin: 1.5rem auto;
+}
+
+.classification .icon {
+  width: 5.6rem;
+  height: 2.7rem;
+  margin: 0px auto;
+}
+
+.classification .dingzhi {
+  width: 3.5rem;
+  height: 2.7rem;
+}
+
+.classification .phone {
+  width: 2.5rem;
+}
+
+.classification .class-text {
+  text-align: center;
+  margin: 1rem 0rem 0rem 0rem;
+  font-size: 0.8em;
+  font-family: 'microsoft yahei';
+  line-height: 2rem;
+}
+
+.classification .class-text .title {
+  font-size: 34rpx;
+}
+
+.classification .class-text .descrption {
+  font-size: 0.8rem;
+  color: #b5b5b6;
+}
+
+/* classification end */
+
+
+/* customer start */
+.customer {
+  clear: both;
+  background: #f7f8f8;
+}
+
+.customer .customer-title {
+  margin:0rem 1rem;
+  background:#fff;
+  width:90%;
+  height:100%;
+  overflow:hidden;
+  padding:1rem 0.1rem;
+}
+
+.company {
+  width: 111px;
+  height: 2.1rem;
+  float: left;
+  padding: 1rem 1rem;
+  border-top: 1px solid #eee;
+}
+
+.customer .customer-page {
+  padding:0px 0px;
+  width:100%;
+  height:100%;
+  display:block;
+  overflow:hidden;
+}
+
+
+.mtop {
+  padding: 16px 0px;
+}
+
+/* customer end */

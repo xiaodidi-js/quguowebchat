@@ -1,0 +1,142 @@
+ <!--index.wxml-->
+
+<!-- programme start -->
+<view class="programme">
+  <view class="prog-all">
+    <view class="programme_text">
+      <label style="color: #fff100;">最适合</label>
+      <label>的小程序解决方案</label>
+    </view>
+    <view>
+      <label>深度了解您的需求，</label>
+    </view>
+    <view>
+      <label>为您提供定制的小程序开发服务</label>
+    </view>
+  </view>
+  <view class='prog-bgimg1'>
+
+  </view>
+</view>
+<!-- programme end -->
+
+<!-- container start -->
+<view class="container">
+  <view class="myTitle">
+    <label>我们的服务</label>
+    <view class="list"></view>
+  </view>
+
+  <view class="classification">
+    <view class='class-list'>
+      <view class='icon'>
+        <image src="../../images/img13.png" style='width: 100%;height: 100%;'></image>
+      </view>
+      <view class='class-text'>
+        <view class='title'>
+          <label>开发</label>
+        </view>
+        <view class='descrption'>
+          <label>小程序开发/ 微商城开发</label>
+        </view>
+      </view>
+    </view>
+
+    <view class='class-list'>
+      <view class='icon dingzhi'>
+        <image src="../../images/img14.png" style='width: 100%;height: 100%;'></image>
+      </view>
+      <view class='class-text'>
+        <view class='title'>
+          <label>定制</label>
+        </view>
+        <view class='descrption'>
+          <label>根据需求定制开发</label>
+        </view>
+      </view>
+    </view>
+
+    <view class='class-list'>
+      <view class='icon phone'>
+        <image src="../../images/img15.png" style='width: 100%;height: 100%;'></image>
+      </view>
+      <view class='class-text'>
+        <view class='title'>
+          <label>APP开发</label>
+        </view>
+        <view class='descrption'>
+          <label>IOS/ANDROID软件开发</label>
+        </view>
+      </view>
+    </view>
+
+    <view class='class-list'>
+      <view class='icon phone'>
+        <image src="../../images/img16.png" style='width: 100%;height: 100%;'></image>
+      </view>
+      <view class='class-text'>
+        <view class='title'>
+          <label>网站建设</label>
+        </view>
+        <view class='descrption'>
+          <label>PC 网站设计</label>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- customer start -->
+  <view class="customer">
+    <view class="myTitle mtop">
+      <label>我们的客户</label>
+      <view class="list"></view>
+    </view>
+
+    <view class="customer-title">
+      <view class="customer-body">
+
+        <view class="company" style="border-right: 1px solid #d2d2d2;border-top: none;">
+          <image src="../../images/img5.png" style="width: 100%;height: 100%;"></image>
+        </view>
+
+        <view class="company" style="border-top: none;">
+          <image src="../../images/img6.png" style="width: 100%;height: 100%;"></image>
+        </view>
+      </view>
+
+      <view class="customer-body">
+        <view class="company" style="border-right: 1px solid #d2d2d2;">
+          <image src="../../images/img7.png" style="width: 100%;height: 100%;"></image>
+        </view>
+
+        <view class="company">
+          <image src="../../images/img8.png" style="width: 100%;height: 100%;"></image>
+        </view>
+      </view>
+
+      <view class="customer-body">
+        <view class="company" style="border-right: 1px solid #d2d2d2;">
+          <image src="../../images/img9.png" style="width: 100%;height: 100%;"></image>
+        </view>
+
+        <view class="company">
+          <image src="../../images/img10.png" style="width: 100%;height: 100%;"></image>
+        </view>
+      </view>
+
+      <view class="customer-body">
+        <view class="company" style="border-right: 1px solid #d2d2d2;">
+          <image src="../../images/img11.png" style="width: 100%;height: 100%;"></image>
+        </view>
+
+        <view class="company">
+          <image src="../../images/img12.png" style="width: 100%;height: 100%;"></image>
+        </view>
+      </view>
+
+    </view>
+
+  </view>
+  <!-- customer end -->
+</view>
+<!-- container end -->

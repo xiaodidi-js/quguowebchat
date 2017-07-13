@@ -1,0 +1,42 @@
+/* message.wxss */
+
+/* message-body start */
+.message-body {
+  width:95%;
+  height: 100%;
+  margin: 40rpx auto 0rpx;
+  font-family: 'microsoft yahei';
+}
+
+.message-body .message-title {
+  font-size: 50rpx;
+  width: 100%;
+}
+
+.message-body .message-author {
+  margin: 40rpx 0rpx 0rpx;
+  font-size: 30rpx;
+}
+
+.message-body .message-author .news-time {
+  color: #9fa0a0;
+}
+
+.message-body .message-author .company {
+  color: #83ccad;
+  margin-left: 14rpx;
+}
+
+.message-body .message-desc {
+  color: #727171;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  margin: 40rpx 0rpx 0rpx;
+  text-align: justify;
+}
+
+.message-body .message-desc .desc-img {
+  height: 1000px;
+  margin-top: 40rpx;
+}
+/* message-body start */
