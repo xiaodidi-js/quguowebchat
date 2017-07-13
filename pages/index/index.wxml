@@ -30,7 +30,7 @@
   <view class="classification">
     <view class='class-list'>
       <view class='icon'>
-        <image src="../../images/img13.png" style='width: 100%;height: 100%;'></image>
+        <label class='iconfont icon-kaifa'></label>
       </view>
       <view class='class-text'>
         <view class='title'>
@@ -43,8 +43,8 @@
     </view>
 
     <view class='class-list'>
-      <view class='icon dingzhi'>
-        <image src="../../images/img14.png" style='width: 100%;height: 100%;'></image>
+      <view class='icon'>
+        <label class='iconfont icon-dingzhi'></label>
       </view>
       <view class='class-text'>
         <view class='title'>
@@ -58,7 +58,7 @@
 
     <view class='class-list'>
       <view class='icon phone'>
-        <image src="../../images/img15.png" style='width: 100%;height: 100%;'></image>
+        <label class='iconfont icon-APPxiazai'></label>
       </view>
       <view class='class-text'>
         <view class='title'>
@@ -72,7 +72,7 @@
 
     <view class='class-list'>
       <view class='icon phone'>
-        <image src="../../images/img16.png" style='width: 100%;height: 100%;'></image>
+        <label class='iconfont icon-diannao'></label>
       </view>
       <view class='class-text'>
         <view class='title'>

@@ -50,7 +50,10 @@
 /* classification start */
 
 .classification {
-  margin: 1rem;
+  width: 95%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0px auto;
 }
 
 .classification .class-list {
@@ -60,18 +63,38 @@
 }
 
 .classification .icon {
-  width: 5.6rem;
-  height: 2.7rem;
-  margin: 0px auto;
+  width:100%;
+  height:3rem;
+  margin:0px auto;
+  text-align:center;
+}
+
+.classification .icon .iconfont {
+  color: #68cfad;
+}
+
+.classification .icon .icon-kaifa {
+  font-size: 100rpx;
+  text-align: center;
+}
+
+.classification .icon .icon-dingzhi {
+  font-size: 130rpx;
+  text-align: center;
+  margin: -10px 20px;
+}
+
+.classification .icon .icon-APPxiazai {
+  font-size: 110rpx;
+}
+
+.classification .icon .icon-diannao {
+  font-size: 110rpx;
 }
 
 .classification .dingzhi {
   width: 3.5rem;
   height: 2.7rem;
-}
-
-.classification .phone {
-  width: 2.5rem;
 }
 
 .classification .class-text {
@@ -84,6 +107,7 @@
 
 .classification .class-text .title {
   font-size: 34rpx;
+  text-align: center;
 }
 
 .classification .class-text .descrption {
@@ -93,24 +117,25 @@
 
 /* classification end */
 
-
 /* customer start */
+
 .customer {
   clear: both;
   background: #f7f8f8;
+  padding:0px 0px 3rem;
 }
 
 .customer .customer-title {
-  margin:0rem 1rem;
-  background:#fff;
-  width:90%;
-  height:100%;
-  overflow:hidden;
-  padding:1rem 0.1rem;
+  margin: 0rem 1rem;
+  background: #fff;
+  width: 90%;
+  height: 100%;
+  overflow: hidden;
+  padding: 1rem 0.1rem;
 }
 
 .company {
-  width: 111px;
+  width: 38%;
   height: 2.1rem;
   float: left;
   padding: 1rem 1rem;
@@ -118,13 +143,12 @@
 }
 
 .customer .customer-page {
-  padding:0px 0px;
-  width:100%;
-  height:100%;
-  display:block;
-  overflow:hidden;
+  padding: 0px 0px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
 }
-
 
 .mtop {
   padding: 16px 0px;
