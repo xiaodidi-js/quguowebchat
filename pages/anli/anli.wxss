@@ -1,0 +1,56 @@
+/* anli.wxss */
+
+/* content start */
+.anli-content {
+  width: 95%;
+  margin: 15px auto;
+  font-family: 'microsoft yahei';
+}
+
+.anli-content .mark {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.anli-content .mark .chonseBtn {
+  width: 31%;
+  height: 35px;
+  line-height: 35px;
+  float: left;
+  background: #fff;
+  font-size: 12px;
+  margin: 3px 0px 3px 6px;
+  color: #595757;
+  font-weight: 500;
+  padding: 0px;
+  font-family: 'microsoft yahei';
+}
+
+.anli-content .mark .btnHover {
+  background: #42c399;
+  color: #fff;
+}
+
+.anli-content .anli-message {
+  margin-top: 1.5rem;
+}
+
+.anli-content .anli-message .anli-title {
+  margin-top: 1rem;
+  font-size: 14pt;
+}
+
+.anli-content .anli-message .anli-desc {
+  font-size: 11pt;
+  line-height: 2rem;
+}
+
+.anli-content .loading-move {
+  text-align: center;
+  color: #b5b5b6;
+  margin-top: 1rem;
+  font-size: 12pt;
+}
+
+/* content end */

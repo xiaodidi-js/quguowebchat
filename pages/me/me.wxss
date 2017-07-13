@@ -1,0 +1,45 @@
+/* me.wxss */
+
+/* me-ele start */
+.me-ele {
+  margin: 27px 10px 30px;
+  font-family: 'microsoft yahei';
+}
+
+.me-ele .me-title {
+  font-size: 42rpx;
+  color: #595757;
+}
+
+.me-ele .me-content {
+  color: #898989;
+  margin-top:1rem;
+}
+
+.me-ele .me-content .me-txt {
+  font-size: 31.5rpx;
+  line-height: 2.2rem;
+}
+
+.me-ele .me-content .me-txt .iconfont {
+  margin-right: 0.5rem;
+  display: block;
+  float: left;
+  margin: 0px 10px 0px 0px;
+  font-size: 20px;
+}
+
+.me-ele .me-content .me-txt .me-desc {
+  width: 80%;
+  display: inline-block;
+}
+
+.me-ele .map {
+  margin-top: 2rem;
+}
+
+.me-ele .map-title {
+  color: #42c399;
+}
+
+/* me-ele end */

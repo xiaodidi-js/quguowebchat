@@ -1,0 +1,107 @@
+/* xuqiu.wxss */
+
+/* .xuqiu-ele start */
+.xuqiu-ele {
+  margin: 0px 1rem 3rem;
+  font-family: 'microsoft yahei';
+}
+
+.xuqiu-ele .xuqiu-title {
+  line-height: 1.5rem;
+  font-size: 30rpx;
+  display: block;
+  color: #3e3a39;
+  margin-top: 1.5rem;
+}
+
+.xuqiu-ele .private {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.xuqiu-ele .private .line {
+  width: 65%;
+  height: 0.05rem;
+  background: #eee;
+  position: absolute;
+  top: 37px;
+  left: 66px;
+  z-index: -1;
+}
+
+.xuqiu-ele .number {
+  width:33%;
+  text-align:center;
+  margin:20px 0px;
+  float:left;
+  z-index: 20;
+}
+
+.xuqiu-ele .number .radio-ele-one {
+  border: 1px solid #55c296;
+  width: 33px;
+  height: 33px;
+  border-radius: 100%;
+  margin:0px auto 10px;
+  background: #fff;
+}
+
+.xuqiu-ele .number .radio-ele-one .radio-ele-two {
+  border:1px solid #55c296;
+  width:25px;
+  height:25px;
+  border-radius: 100%;
+  line-height: 25px;
+  font-size: 12px;
+  margin:3px auto;
+}
+
+.xuqiu-ele .number .input-message {
+  font-size: 29rpx;
+  color: #3e3a39;
+}
+
+.xuqiu-ele .input-ele {
+  font-size: 12px;
+  margin-top: 25px;
+  width:100%;
+  margin-bottom: 8rem;
+}
+
+.xuqiu-ele .input-ele .input-txt {
+  color: #898989;
+}
+
+.xuqiu-ele .input-ele .wx-input {
+  height: 2.5rem;
+  width: 96%;
+  border: 1px solid #ccc;
+  margin: 10px 0px;
+  padding-left: 10px;
+  font-family: 'microsoft yahei';
+}
+
+.xuqiu-ele .input-ele .input-txt .textarea {
+  width:98%;
+  height:8rem;
+  border:1px solid #ccc;
+  margin-top: 10px;
+  padding: 5px 0px 0px 5px;
+  font-family:'microsoft yahei';
+}
+
+.xuqiu-ele .input-ele .input-txt .confirm {
+  margin-top: 1rem;
+  background: #42c399;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.xuqiu-ele .input-ele .input-txt .confirmHover {
+  background: #68cfad;
+  color: #fff;
+}
+
+/* .xuqiu-ele end */

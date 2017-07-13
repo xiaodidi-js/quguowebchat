@@ -1,0 +1,30 @@
+<!--anli.wxml-->
+
+<!-- anli-content start -->
+<view class="anli-content">
+  <view class="mark">
+    <button class='chonseBtn' hover-class="btnHover">全部</button>
+    <button class='chonseBtn' hover-class="btnHover">微商城/小程序</button>
+    <button class='chonseBtn' hover-class="btnHover">app开发</button>
+    <button class='chonseBtn' hover-class="btnHover">网站建设</button>
+    <button class='chonseBtn' hover-class="btnHover">其他</button>
+  </view>
+
+  <view class="anli-message" bindtap="goPage">
+    <view>
+      <image src="../../images/img21.png" style="width: 100%;"></image>
+    </view>
+    <view class="anli-title" style="color: #3e3a39;">
+      <text>潜龙设计</text>
+    </view>
+    <view class="anli-desc" style="color: #9fa0a0">
+      <text>潜龙设计，总部坐落广东工业设计城，是广东十佳工业设计机构，国家高新技术企业</text>      
+    </view>
+  </view>
+
+  <view class="loading-move">
+    <label>加载更多</label>
+  </view>
+
+</view>
+<!-- anli-content end -->

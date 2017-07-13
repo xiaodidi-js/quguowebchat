@@ -1,8 +1,11 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/message/message"
+    "pages/anli/anli",
+    "pages/xuqiu/xuqiu",
+    "pages/me/me",
+    "pages/message/message",
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -19,25 +22,26 @@
         "pagePath": "pages/index/index",
         "iconPath": "images/tabBar/img1.png",
         "text": "首页",
-        "selectedIconPath": "images/tabBar/img1.png"
+        "selectedIconPath": "images/tabBar/img1-1.png",
+        "Color" : "#c40000"
       },
       {
-        "pagePath": "pages/message/message",
+        "pagePath": "pages/anli/anli",
         "iconPath": "images/tabBar/img2.png",
         "text": "案例",
-        "selectedIconPath": "images/tabBar/img2.png"
+        "selectedIconPath": "images/tabBar/img2-2.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/xuqiu/xuqiu",
         "iconPath": "images/tabBar/img3.png",
         "text": "需求",
-        "selectedIconPath": "images/tabBar/img3.png"
+        "selectedIconPath": "images/tabBar/img3-3.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/me/me",
         "iconPath": "images/tabBar/img4.png",
         "text": "我们",
-        "selectedIconPath": "images/tabBar/img4.png"
+        "selectedIconPath": "images/tabBar/img4-4.png"
       }
     ]
   }

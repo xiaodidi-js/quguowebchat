@@ -50,21 +50,21 @@
 /* classification start */
 
 .classification {
-  width: 95%;
-  height: 100%;
-  overflow: hidden;
-  margin: 0px auto;
+  width:88%;
+  height:100%;
+  overflow:hidden;
+  margin:0px 30px;
 }
 
 .classification .class-list {
   width: 50%;
   float: left;
-  margin: 1.5rem auto;
+  margin: 1rem auto;
 }
 
 .classification .icon {
   width:100%;
-  height:3rem;
+  height: 2rem;
   margin:0px auto;
   text-align:center;
 }
@@ -74,22 +74,22 @@
 }
 
 .classification .icon .icon-kaifa {
-  font-size: 100rpx;
+  font-size: 80rpx;
   text-align: center;
 }
 
 .classification .icon .icon-dingzhi {
-  font-size: 130rpx;
+  font-size: 110rpx;
   text-align: center;
   margin: -10px 20px;
 }
 
 .classification .icon .icon-APPxiazai {
-  font-size: 110rpx;
+  font-size: 80rpx;
 }
 
 .classification .icon .icon-diannao {
-  font-size: 110rpx;
+  font-size: 80rpx;
 }
 
 .classification .dingzhi {
@@ -106,8 +106,9 @@
 }
 
 .classification .class-text .title {
-  font-size: 34rpx;
+  font-size: 36rpx;
   text-align: center;
+  margin-top: 40px;
 }
 
 .classification .class-text .descrption {
@@ -122,7 +123,7 @@
 .customer {
   clear: both;
   background: #f7f8f8;
-  padding:0px 0px 3rem;
+  padding-bottom: 3rem;
 }
 
 .customer .customer-title {
