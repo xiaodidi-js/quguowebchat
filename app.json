@@ -1,16 +1,17 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/anli/anli",
-    "pages/xuqiu/xuqiu",
     "pages/me/me",
+    "pages/xuqiu/xuqiu",
+    "pages/index/index",
     "pages/message/message",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "components/loading/loading"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#42c399",
-    "navigationBarTitleText": "趣果网络科技",
+    "navigationBarTitleText": "趣果科技",
     "navigationBarTextStyle": "#fff"
   },
   "tabBar": {
@@ -22,8 +23,7 @@
         "pagePath": "pages/index/index",
         "iconPath": "images/tabBar/img1.png",
         "text": "首页",
-        "selectedIconPath": "images/tabBar/img1-1.png",
-        "Color" : "#c40000"
+        "selectedIconPath": "images/tabBar/img1-1.png"
       },
       {
         "pagePath": "pages/anli/anli",

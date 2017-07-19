@@ -1,0 +1,6 @@
+<!--loading.wxml-->
+<template name="LoadingItem">
+  <loading class="loading" hidden="{{ loadHidden }}" bindchange="loadChange">
+    加载中。。。
+  </loading>
+</template>
