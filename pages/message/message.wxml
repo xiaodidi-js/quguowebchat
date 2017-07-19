@@ -1,17 +1,14 @@
 <!--message.wxml-->
 <view class="message-body">
-  <view class="message-title">潜龙设计</view>
+  <view class="message-title">{{ listDome.post_title }}</view>
   <view class="message-author">
-    <label class="news-time">2017-07-12</label>
-    <label class="company">趣果网络科技</label>
+    <label class="news-time">{{ serviceDate }}</label>
+    <label class="company">{{ listDome.post_excerpt }}</label>
   </view>
   <view class="message-desc">
-    <label>
-      潜龙设计，总部坐落广东工业设计城，是广东十佳工业设计机构，国家高新技术企业，设计作品获得多项德国红点奖、中国红星奖。早在2002年已致力于中国工业设计领域，近年以协同创
-    </label>
+    <label>{{ listDome.post_content }}</label>
     <view class="desc-img">
-      <image src="../../images/img20.png" style="width: 100%;height: 1000px;"></image>
+      <image src="{{ listDome.more.thumbnail }}" style="width: 100%;height: 1000px;"></image>
     </view>
   </view>
 </view>
-

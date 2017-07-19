@@ -2,7 +2,7 @@
 
 /* me-ele start */
 .me-ele {
-  margin: 27px 10px 30px;
+  margin: 27px 10px 0px;
   font-family: 'microsoft yahei';
 }
 
@@ -34,12 +34,21 @@
   display: inline-block;
 }
 
+.me-ele .me-content .me-txt .telphone {
+  width: 46%;
+}
+
 .me-ele .map {
   margin-top: 2rem;
+  padding:0rem 0rem 1rem;
 }
 
 .me-ele .map-title {
   color: #42c399;
+}
+
+.me-ele .thatmap {
+  margin-top: 1rem;
 }
 
 /* me-ele end */

@@ -14,7 +14,7 @@
 }
 
 .anli-content .mark .chonseBtn {
-  width: 31%;
+  width: 30%;
   height: 35px;
   line-height: 35px;
   float: left;
@@ -46,11 +46,6 @@
   line-height: 2rem;
 }
 
-.anli-content .loading-move {
-  text-align: center;
-  color: #b5b5b6;
-  margin-top: 1rem;
-  font-size: 12pt;
-}
+
 
 /* content end */

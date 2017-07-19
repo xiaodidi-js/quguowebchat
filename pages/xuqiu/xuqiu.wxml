@@ -39,30 +39,31 @@
   </view>
   
   <view class="input-ele">
-    <view class="input-txt">
-      <label>您的姓名</label>
-      <input class="wx-input" type="text" placeholder="" />
-    </view>
+    <form bindsubmit="formSubmit">
+      <view class="input-txt">
+        <label>您的姓名</label>
+        <input name="myname" class="wx-input" type="text" placeholder="" />
+      </view>
 
-    <view class="input-txt">
-      <label>您的电话</label>
-      <input class="wx-input" type="number" placeholder="" />
-    </view>
+      <view class="input-txt">
+        <label>您的电话</label>
+        <input name="myphone" class="wx-input" type="number" placeholder="" />
+      </view>
 
-    <view class="input-txt">
-      <label>QQ/微信</label>
-      <input class="wx-input" type="number" placeholder="" />
-    </view>
+      <view class="input-txt">
+        <label>QQ/微信</label>
+        <input name="myqq" class="wx-input" type="number" placeholder="" />
+      </view>
 
-    <view class="input-txt">
-      <label>需求描述</label>
-      <textarea class="textarea" maxlength="-1" />
-    </view>
+      <view class="input-txt">
+        <label>需求描述</label>
+        <textarea name="mymessage" class="textarea" maxlength="-1" />
+      </view>
 
-    <view class="input-txt">
-      <button class="confirm" hover-class="confirmHover">需求提交</button>
-    </view>
-
+      <view class="input-txt">
+        <button class="confirm" hover-stay-time="440" formType="submit" hover-class="confirmHover">需求提交</button>
+      </view>
+    </form>
   </view>
 
 </view>

@@ -4,13 +4,29 @@ var app = getApp()
 Page({
   data: {
     motto: 'Hello World',
-    userInfo: {}
+    userInfo: {},
+    animationData: {},
+    loadHidden: true, //  true: 隐藏  false: 显示
   },
   //事件处理函数
   bindViewTap: function () {
     wx.navigateTo({
       url: '../logs/logs'
     })
+  },
+  onShow() {  // 小动画
+    var animation = wx.createAnimation({
+      transformOrigin: "50% 50%",
+      duration: 1000,
+      timingFunction: "ease",
+      delay: 0
+    });
+    animation.translateY(20).translateX(20).step()
+
+    this.setData({
+      animationData: animation.export()
+    })
+
   },
   onLoad: function () {
     console.log('onLoad')

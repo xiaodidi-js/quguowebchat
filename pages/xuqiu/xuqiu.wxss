@@ -2,13 +2,13 @@
 
 /* .xuqiu-ele start */
 .xuqiu-ele {
-  margin: 0px 1rem 3rem;
+  margin: 0px 2rem;
   font-family: 'microsoft yahei';
 }
 
 .xuqiu-ele .xuqiu-title {
   line-height: 1.5rem;
-  font-size: 30rpx;
+  font-size: 1.0rem;
   display: block;
   color: #3e3a39;
   margin-top: 1.5rem;
@@ -64,10 +64,10 @@
 }
 
 .xuqiu-ele .input-ele {
-  font-size: 12px;
-  margin-top: 25px;
+  font-size:12px;
+  margin:25px 0px 0px;
   width:100%;
-  margin-bottom: 8rem;
+  padding:2rem 0rem;
 }
 
 .xuqiu-ele .input-ele .input-txt {
@@ -95,7 +95,7 @@
 .xuqiu-ele .input-ele .input-txt .confirm {
   margin-top: 1rem;
   background: #42c399;
-  border-radius: 20px;
+  border-radius: 10px;
   color: #fff;
 }
 

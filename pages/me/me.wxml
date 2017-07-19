@@ -7,22 +7,24 @@
   <view class="me-content">
     <view class="me-txt">
       <label class="iconfont icon-lianxi"></label>
-      <label class="me-desc">电话：0757-29998203 / 1236456988</label>
+      <label class="me-desc telphone" bindtap="telPhone">电话: 0757-88793668</label>
+      <label> / </label>
+      <label class="telphone" bindtap="modelPhone">13380509065</label>
     </view>
 
     <view class="me-txt">
       <label class="iconfont icon-youxiang"></label>
-      <label class="me-desc">E-mail: admin@quguonet.com</label>
+      <label class="me-desc">Email: myth@quguonet.com</label>
     </view>
 
     <view class="me-txt">
       <label class="iconfont icon-guanwangtonggouxuanzhong"></label>
-      <label class="me-desc">官网：www.quguonet.com</label>
+      <label class="me-desc">官网: www.quguonet.com</label>
     </view>
 
     <view class="me-txt">
       <label class="iconfont icon-dizhi"></label>
-      <label class="me-desc">地址:广东省佛山市顺德区大良街道新宁路家电城41号铺</label>
+      <label class="me-desc">地址: 广东省佛山市顺德区大良街道新宁路家电城41号铺</label>
     </view>
   </view>
 
@@ -31,11 +33,10 @@
       <label>【导航地图】</label>
     </view>
 
-    <view class="map">
-      <map id="map" longitude="113.324520" latitude="23.099994" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" 
+    <view class="thatmap">
+      <map id="map" latitude="22.8446532705" longitude="113.2412445545" scale="17" bindcontroltap="controltap" markers="{{markers}}" 
         bindmarkertap="markertap" 
-        polyline="{{polyline}}" 
-        bindregionchange="regionchange" 
+        bindregionchange="regionchange" show-location="true"
         show-location style="width: 100%; height: 250px;">
       </map>
     </view>
