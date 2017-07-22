@@ -35,7 +35,7 @@
 }
 
 .me-ele .me-content .me-txt .telphone {
-  width: 46%;
+  width: 45%;
 }
 
 .me-ele .map {

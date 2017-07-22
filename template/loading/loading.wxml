@@ -1,0 +1,7 @@
+<!--loading.wxml-->
+<!-- 加载模块 -->
+<template name="LoadingItem">
+  <loading class="loading" hidden="{{ loadHidden }}" bindchange="loadChange">
+    加载中。。。
+  </loading>
+</template>

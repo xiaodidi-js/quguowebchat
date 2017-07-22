@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    loading: false, //  按钮名称前的带loading 图标
   },
 
   /**
@@ -17,7 +17,8 @@ Page({
     var myphone = e.detail.value.myphone.length;
     var myqq = e.detail.value.myqq.length;
     var mymessage = e.detail.value.mymessage.length;
-
+    
+    //  表单验证
     if (myname === 0 || myphone === 0 || myqq === 0 || mymessage === 0) {
       wx.showToast({   //  提示
         title: '表单不能为空',
@@ -26,11 +27,17 @@ Page({
       });
     } else {
       console.log('form发生了submit事件，携带数据为：', e.detail.value)
+
+      // that.setData({
+      //   loading : !that.data.loading,
+      // });
+
       wx.showToast({   //  提示
         title: '提交成功！',
         icon: 'error',
         duration: 1000
       })
+      
     }
 
     // wx.request({
@@ -102,6 +109,6 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
+    
   }
 })

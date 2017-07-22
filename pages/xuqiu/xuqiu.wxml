@@ -5,11 +5,8 @@
   <view class="xuqiu-title">
     <text>马上提交需求，我们会在24小时内联系您，并提供产品咨询和项目报价！</text>
   </view>
-
   <view class="private">
-
     <view class="line"></view>
-
     <view class="number">
       <view class="input-message">
         <view class="radio-ele-one">
@@ -26,7 +23,6 @@
         <label>产品咨询</label>
       </view>
     </view>
-
     <view class="number">
       <view class="input-message">
         <view class="radio-ele-one">
@@ -37,9 +33,10 @@
     </view>
 
   </view>
-  
+
   <view class="input-ele">
     <form bindsubmit="formSubmit">
+
       <view class="input-txt">
         <label>您的姓名</label>
         <input name="myname" class="wx-input" type="text" placeholder="" />
@@ -61,8 +58,9 @@
       </view>
 
       <view class="input-txt">
-        <button class="confirm" hover-stay-time="440" formType="submit" hover-class="confirmHover">需求提交</button>
+        <button loading="{{ loading }}" class="confirm" hover-stay-time="440" formType="submit" hover-class="confirmHover">需求提交</button>
       </view>
+
     </form>
   </view>
 

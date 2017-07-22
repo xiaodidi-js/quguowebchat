@@ -1,4 +1,4 @@
- <!--index.wxml-->
+<!--index.wxml-->
 
 <!-- programme start -->
 <view class="programme">
@@ -94,46 +94,44 @@
 
     <view class="customer-title">
       <view class="customer-body">
-
         <view class="company" style="border-right: 1px solid #d2d2d2;border-top: none;">
-          <image src="../../images/img5.png" style="width: 100%;height: 100%;"></image>
+          <image src="../../images/img5.png"></image>
         </view>
 
         <view class="company" style="border-top: none;">
-          <image src="../../images/img6.png" style="width: 100%;height: 100%;"></image>
+          <image src="../../images/img6.png"></image>
         </view>
       </view>
 
       <view class="customer-body">
         <view class="company" style="border-right: 1px solid #d2d2d2;">
-          <image src="../../images/img7.png" style="width: 100%;height: 100%;"></image>
+          <image src="../../images/img7.png"></image>
         </view>
 
         <view class="company">
-          <image src="../../images/img8.png" style="width: 100%;height: 100%;"></image>
+          <image src="../../images/img8.png"></image>
         </view>
       </view>
 
       <view class="customer-body">
         <view class="company" style="border-right: 1px solid #d2d2d2;">
-          <image src="../../images/img9.png" style="width: 100%;height: 100%;"></image>
+          <image src="../../images/img9.png"></image>
         </view>
 
         <view class="company">
-          <image src="../../images/img10.png" style="width: 100%;height: 100%;"></image>
+          <image style="height: 35px;position:relative;top: 5px;" src="../../images/img10.png"></image>
         </view>
       </view>
 
       <view class="customer-body" style="border-bottom: none;">
         <view class="company" style="border-right: 1px solid #d2d2d2;">
-          <image src="../../images/img11.png" style="width: 100%;height: 100%;"></image>
+          <image src="../../images/img11.png"></image>
         </view>
 
         <view class="company">
-          <image src="../../images/img12.png" style="width: 100%;height: 100%;"></image>
+          <image src="../../images/img12.png"></image>
         </view>
       </view>
-
     </view>
 
   </view>

@@ -14,13 +14,13 @@
 }
 
 .anli-content .mark .chonseBtn {
-  width: 30%;
+  width: 32%;
   height: 35px;
   line-height: 35px;
   float: left;
   background: #fff;
   font-size: 12px;
-  margin: 3px 0px 3px 6px;
+  margin: 3px 1.5px 3px 1.5px;
   color: #595757;
   font-weight: 500;
   padding: 0px;
@@ -45,7 +45,5 @@
   font-size: 11pt;
   line-height: 2rem;
 }
-
-
 
 /* content end */

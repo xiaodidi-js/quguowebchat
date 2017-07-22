@@ -1,12 +1,12 @@
 {
   "pages": [
     "pages/anli/anli",
-    "pages/me/me",
-    "pages/xuqiu/xuqiu",
     "pages/index/index",
+    "pages/xuqiu/xuqiu",
+    "pages/me/me",
     "pages/message/message",
     "pages/logs/logs",
-    "components/loading/loading"
+    "template/loading/loading"
   ],
   "window": {
     "backgroundTextStyle": "light",

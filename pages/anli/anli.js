@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    util: require('../../utils/util.js'), //  导入文件
     loadHidden: true, //  true: 隐藏  false: 显示
     loadMore: true, //  加载更多
     listData: [], //  分类
@@ -24,29 +25,23 @@ Page({
   },
   chonses(e) {
     var that = this;
-    that.setData({ loadHidden: false });
     //  将ID存储到缓存
     wx.setStorageSync("id", e.currentTarget.id)
     //  在缓存获取ID
     var id = wx.getStorageSync('id');
-    wx.request({
-      url: 'http://quguocms.ittun.com/public/api/portal/lists/getCategoryPostList?category_id=' + id,
-      methods: "GET",
-      data: {},
-      header: {
-        "Content-Type" : "application/json"
-      },
-      success(res) {
-        console.log(res.data);
-        that.setData({
-          article : res.data.data
-          
-        });
-      },
-      complete() {
-        that.setData({ loadHidden: true });
-      }
-    })
+    //  引入util.js
+    var util = require('../../utils/util.js');
+    that.setData({ loadHidden: false });
+    util.httpRequest.got('http://quguocms.ittun.com/public/api/portal/lists/getCategoryPostList?category_id=' + id, '', function (res) {
+      console.log(res.data);
+      that.setData({
+        article: res.data.data
+      });
+    }, function () { //  失败处理
+      
+    }, function () { //  接口调用结束的回调函数
+      that.setData({ loadHidden: true });
+    });
   },
 
   loadingMove() {   // 加载更多
@@ -57,25 +52,41 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var that = this;
+    //  引入util.js
+    var util = require('../../utils/util.js'), that = this;
+    util.httpRequest.got('http://quguocms.ittun.com/public/api/portal/categorys?id=8','',function(res) {
+      console.log(res.data.data);
+      //  获取缓存ID
+      var id = wx.getStorageSync('id');
+      //  显示加载提示框
+      that.setData({ loadHidden: false });
+      //  加载页面显示文章
 
-    var that = this;
-    wx.request({
-      url: 'http://quguocms.ittun.com/public/api/portal/categorys?id=8',
-      methods: "GET",
-      header: {
-        "Content-Type": "application/json"
-      },
-      data: {},
-      success(res) {
-        // that.data.listData = res.data.data;
-        console.log(res.data.data.sub);
-        that.setData({
-          listData: res.data.data.sub
-        });
+      var url = "";
+      if (wx.getStorageSync('id') === '' ) {
+        url = 'http://quguocms.ittun.com/public/api/portal/lists/getCategoryPostList?category_id=9';
+      } else {
+        url = 'http://quguocms.ittun.com/public/api/portal/lists/getCategoryPostList?category_id=' + id;
       }
-    })
+      util.httpRequest.got(url, '', function (res) {
+        console.log(res.data);
+        that.setData({
+          article: res.data.data
+        });
+      }, function () { //  失败处理
 
+      }, function () { //  接口调用结束的回调函数
+        that.setData({ loadHidden: true });
+      });
+      //  获取数据
+      that.setData({
+        listData: res.data.data.sub
+      });
+    }, function() { //  失败处理
+
+    }, function () { //  接口调用结束的回调函数
+
+    });
   },
 
   /**
@@ -117,8 +128,8 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-    // var that = this;
-    // that.setData({ loadHidden: false });
+      // var that = this;
+      // that.setData({ loadHidden: false });
   },
 
   /**

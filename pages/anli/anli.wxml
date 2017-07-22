@@ -3,7 +3,7 @@
 <!-- anli-content start -->
 <view class="anli-content">
   <view class="mark">
-    <button class='chonseBtn' bindtap="chonses" wx:for="{{ listData }}" id="{{ item.id }}" hover-class="btnHover" >{{ item.name }}</button>
+    <button class='chonseBtn' hover-stay-time="100000000000000" bindtap="chonses" wx:for="{{ listData }}" id="{{ item.id }}" hover-class="btnHover" >{{ item.name }}</button>
   </view>
 
   <view class="classname">
@@ -21,9 +21,9 @@
     </view>
   </view>
 
-    <loading class="loading" hidden="{{ loadHidden }}" bindchange="loadChange">
-      加载中。。。
-    </loading>
+  <!-- 引入加载模块 -->
+  <import src="../../template/loading/loading.wxml" />
+  <template is="LoadingItem" data="{{ loadHidden }}"></template>
 
   <view hidden="loadMore" class="loading-move" bindtap="loadingMove">
     <label>加载更多</label>

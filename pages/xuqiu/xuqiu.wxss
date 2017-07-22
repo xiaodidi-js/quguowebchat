@@ -97,6 +97,7 @@
   background: #42c399;
   border-radius: 10px;
   color: #fff;
+  font-size: 16px;
 }
 
 .xuqiu-ele .input-ele .input-txt .confirmHover {

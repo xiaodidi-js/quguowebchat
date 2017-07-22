@@ -1,44 +1,22 @@
-// message.js
+// loading.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    listDome: [],
-    serviceDate: '',
+    
+  },
+
+  loadChange() {  //加载函数
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    //  引入外部js
-    var forDate = require('../../utils/util.js');
-
-    var that = this, id = wx.getStorageSync("keyID");
-    wx.request({
-      url: 'http://quguocms.ittun.com/public/api/portal/articles?only=read&id=' + id,
-      methods: "GET",
-      data: {},
-      header: {
-        "Content-Type": "application/json"
-      },
-      success(res) {
-        that.data.listDome = res.data.data;
-        console.log(that.data.listDome);
-
-        console.log(forDate.httpRequest.formatTime(that.data.listDome.published_time));
-        //  published_time
-        that.setData({
-          listDome: res.data.data,
-          serviceDate: forDate.httpRequest.formatTime(that.data.listDome.published_time)
-        });
-      },
-      complete() {
-        
-      }
-    })
+  
   },
 
   /**

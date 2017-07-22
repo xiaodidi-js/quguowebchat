@@ -1,0 +1,9 @@
+/* loading.wxss start */
+.loading-move {
+  text-align: center;
+  color: #b5b5b6;
+  margin-top: 1rem;
+  font-size: 12pt;
+  padding: 1rem 0px;
+}
+/* loading.wxss end */
